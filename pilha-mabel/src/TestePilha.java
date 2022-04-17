@@ -14,7 +14,9 @@ public class TestePilha {
             System.out.println("Tamanho da pilha: " + p.tamanho());
             for (int i = 0; i < max; i++) {
                 n = (int) p.pop();
+                System.out.println("Desempilhou: " + n);
             }
+            System.out.println("Tamanho da pilha: " + p.tamanho());
         } catch (Exception e) {
             System.out.println(e.getMessage());
             System.out.println("Tamanho da pilha: " + p.tamanho());
